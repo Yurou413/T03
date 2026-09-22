@@ -38,7 +38,7 @@
                 page: 'televisions',
                 label: 'Televisions',
                 icon: 'fa-tv',
-                href: 'Television.html'
+                href: 'television.html'
             },
             {
                 page: 'about',
