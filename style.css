@@ -29,20 +29,16 @@ body {
   padding: 0.8rem 2rem;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  box-shadow: var(--shadow);
-  border-bottom: 4px solid var(--logo-accent);
+  gap: 1rem;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  cursor: pointer;
-  transition: transform 0.2s ease;
+  justify-content: center;
   background: none;
   border: none;
+  cursor: pointer;
   padding: 0;
 }
 
@@ -51,8 +47,8 @@ body {
 }
 
 .logo-img {
-  width: 52px;
-  height: 52px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   display: block;
 }
@@ -72,7 +68,6 @@ body {
   display: flex;
   gap: 0.5rem;
   margin-left: auto;
-  flex-wrap: wrap;
 }
 
 .nav-btn {
